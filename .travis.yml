@@ -1,6 +1,7 @@
 ---
 
 langage: python
+python: 3
 
 before_install:
   - sudo apt-get -qq update
