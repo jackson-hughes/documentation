@@ -2,8 +2,6 @@
 sudo: false
 
 langage: python
-python:
-  - "3"
 
 cache: pip
 
