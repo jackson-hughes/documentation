@@ -1,3 +1,0 @@
-# Test file
-
-Test file to trigger a build since Travis CI doesn't allow builds from PRs :thinking:...
