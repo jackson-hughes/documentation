@@ -13,17 +13,17 @@ install:
 
 - stage: build
 
-script:
-  - mkdocs build
+  script:
+    - mkdocs build
 
 - stage: deploy
-script: skip
-deploy:
-  provider: pages
-  repo: jhughes01/jhughes01.github.io
-  local-dir: site
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-  keep-history: true
-  on:
-    branch: master
+  script: skip
+  deploy:
+    provider: pages
+    repo: jhughes01/jhughes01.github.io
+    local-dir: site
+    skip-cleanup: true
+    github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+    keep-history: true
+    on:
+      branch: master
