@@ -1,7 +1,11 @@
 ---
-sudo: required
+sudo: false
+
 langage: python
-python: "3"
+python:
+  - "3"
+
+cache: pip
 
 before_install:
   - sudo apt-get -qq update
