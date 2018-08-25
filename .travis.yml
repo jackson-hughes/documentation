@@ -11,9 +11,13 @@ before_install:
 install:
   - pip install mkdocs
 
+- stage: build
+
 script:
   - mkdocs build
 
+- stage: deploy
+script: skip
 deploy:
   provider: pages
   repo: jhughes01/jhughes01.github.io
