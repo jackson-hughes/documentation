@@ -1,26 +1,22 @@
----
 sudo: false
-
 language: python
-
 cache: pip
-
 before_install:
-  - sudo apt-get -qq update
-
+- sudo apt-get -qq update
 install:
-  - pip install mkdocs
-
+- pip install mkdocs
 script:
-  - mkdocs build
-
+- mkdocs build
 deploy:
   provider: pages
   repo: jhughes01/jhughes01.github.io
   target-branch: master
   local-dir: site
   skip-cleanup: true
-  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  github-token: "$GITHUB_TOKEN"
   keep-history: true
   on:
     branch: master
+notifications:
+  slack:
+    secure: uoJnwlpgdd0fJVEoxt4F39BMmrxKroRmVrh4ivDk/KIpo5VKl8ybumot7ckRFceAet79AM4dNhwThi1nHahX1lGMwxAgj86PpgLTWN+h5Nf4XzlxrF9tKojiwp2quysmnkgfOYIXv5/Rx4q2xTUvfjxp2rXn+Kk12ifQ0tf3InUpbX0i4EyW7x9dQAWIOJN7VhLSVmA1SzdURXjVvQgfj0V2zp1gbGXOGw1Gn3dX/qI+oGkYloR9ZnJhnn9m14QYq1pc1WBaQWdKbratOvZiegeToXZKEquLL6NrpbYXaddfhlmo8B3N1TbTM4KeARYKLk0IcO2iehy37JGQFsRNwNtb4Rjf4dOFbx4rwJoK+ifSd0Kgvu65YrBB5iWQXT3H6XJQPUNFpNiIAlNEzBPO7PUvNnfXxagr0a3OIP1DFt08dSMU+j/DV5GzhYjK+RIfEDNN7l3vj8VC/KaHmF16x7Tv0j5SQ3MtW4G9JadtCUABJbhhmMLMiw/jcRqFLL+3QrtIstoEUd2qh02BYXI1bWDGPmqVkEZM5WK8UnttEaNiNKT7LEi/YQqpS9bnRel1Of5r2Sgg3EGZwjx0vRe61JDflvBMiWeAky1fT4oqRvrRkeJoy6P8xux+x7+5f+TpLv4q3sL7ZMCvz6QKH5e1m1VSRj76uW7EqYf3r+4O/S8=
