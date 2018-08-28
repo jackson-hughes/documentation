@@ -4,6 +4,8 @@ FreeIPA is a comprehensive suite of open source utilities providing an AD like s
 
 ## Misc.
 
+<br>
+
 Retrieve a list of all users in LDAP
 
     ipa user-find --sizelimit=0 | grep -i "user login" | awk '{print $3}' > ipausers
