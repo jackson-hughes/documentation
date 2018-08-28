@@ -12,3 +12,7 @@ Boilerplate ssh configuration:
         ForwardAgent yes
         ForwardX11 yes
         ProxyJump jhughes@jumphost.jhcloud.io
+
+### Further reading
+
+[OpenSSH Cookbook](https://en.wikibooks.org/wiki/OpenSSH/Cookbook/Proxies_and_Jump_Hosts)
