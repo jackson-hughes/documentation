@@ -1,4 +1,6 @@
-# All things Shell
+# Shell
+
+_All things shell_
 
 ## Miscellenous / Glorious one-liners
 
