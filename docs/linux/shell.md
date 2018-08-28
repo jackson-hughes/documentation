@@ -26,6 +26,10 @@ Print SWAP usage by process
 
 Test mail CLI
 
+    echo "Subject: E-mail test" | sendmail -v $EMAIL_ADDRESS
+
+Test mail CLI (with attachment)
+
     echo "Special delivery" | mailx -s "Hello" -a testfile1 $EMAIL_ADDRESS
 
 Shell keepalive
