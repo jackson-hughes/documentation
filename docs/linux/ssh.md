@@ -4,6 +4,8 @@
 
 Boilerplate ssh configuration:
 
+`~/.ssh/id_rsa`
+
     Host example
         Hostname example.jhcloud.io
         User jhughes
