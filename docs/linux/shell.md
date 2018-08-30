@@ -4,6 +4,8 @@ _All things shell_
 
 ## Miscellenous / Glorious one-liners
 
+<br>
+
 Finds anything in current directory that isn't zipped and zips it
 
     find . -type f ! -iname '*.gz' -exec gzip "{}" \;
@@ -11,6 +13,8 @@ Finds anything in current directory that isn't zipped and zips it
 Get external IP from CLI
 
     dig +short myip.opendns.com @resolver1.opendns.com
+
+    curl http://checkip.amazonaws.com/
 
 Move files based on date
 
