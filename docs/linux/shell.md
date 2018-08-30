@@ -14,6 +14,8 @@ Get external IP from CLI
 
     dig +short myip.opendns.com @resolver1.opendns.com
 
+  or
+
     curl http://checkip.amazonaws.com/
 
 Move files based on date
