@@ -23,6 +23,14 @@ The initial setup configuration is contained within `/etc/pihole/setupVars.conf`
 ### Admin console
 Pi-hole comes with an admin console with pretty graphs. It's accessable at `http://$MYHOSTNAME/admin`.
 
+#### Modify or remove admin password
+
+With console access, either local or SSH, run:
+
+    pihole -a -p
+
+Leave blank for no password on the admin portal. 
+
 ### DHCP
 DHCP is disabled by default but can be turned on and configured via the admin portal. 
 
