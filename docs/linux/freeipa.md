@@ -2,6 +2,20 @@
 
 FreeIPA is a comprehensive suite of open source utilities providing an AD like service. 
 
+## User Management
+
+### Add User
+
+### Add Group
+
+### Add User to Group
+
+### Reset User Password
+
+    ipa user-mod john.smith --password
+
+## Host Management
+
 ## Misc.
 
 <br>
