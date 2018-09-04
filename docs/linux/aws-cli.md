@@ -8,6 +8,8 @@ Insert parameter into parameter store
 aws ssm put-parameter --name "$PARAM_NAME" --type SecureString --value "$PARAM_VALUE" --key-id alias/$KMS_KEY_NAME
 ```
 
+<br>
+
 Retrieve parameter
 
 ```bash
