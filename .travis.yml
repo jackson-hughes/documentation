@@ -4,7 +4,7 @@ cache: pip
 before_install:
 - sudo apt-get -qq update
 install:
-- pip install mkdocs
+- pip install -r requirements.txt
 script:
 - mkdocs build
 deploy:
