@@ -10,7 +10,9 @@ Pi-hole remains extremely similar to the DNS/DHCP technology it is built on - DN
 
 ## Install
 
-    curl -sSL https://install.pi-hole.net | bash
+```bash
+curl -sSL https://install.pi-hole.net | bash
+```
 
 _Obligatory piping to bash is bad statement here._
 
@@ -27,7 +29,9 @@ Pi-hole comes with an admin console with pretty graphs. It's accessable at `http
 
 With console access, either local or SSH, run:
 
-    pihole -a -p
+```bash
+pihole -a -p
+```
 
 Leave blank for no password on the admin portal. 
 
