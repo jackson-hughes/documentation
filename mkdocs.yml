@@ -1,13 +1,13 @@
 site_name: jhughes-docs
 edit_uri: ''
+repo_name: 'jhughes01/documentation'
+repo_url: 'https://github.com/jhughes01/documentation'
 theme:
   name: 'material'
   palette:
     primary: 'orange'
   feature:
     tabs: true
-  repo_name: 'jhughes01/documentation'
-  repo_url: 'https://github.com/jhughes01/documentation'
   markdown_extensions:
     - admonition
     - codehilite:
