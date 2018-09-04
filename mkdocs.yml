@@ -12,6 +12,7 @@ theme:
     - admonition
     - codehilite:
         guess_lang: false
+        linenums: true
     - toc:
         permalink: true
     - pymdownx.arithmatex
