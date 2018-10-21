@@ -11,6 +11,10 @@
 *   [Shell](shell.md)
 *   [SSH](sshd.md)
 
+## Travis CI
+
+*   [Travis configuration](travis.md)
+
 ## Useful links
 
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
