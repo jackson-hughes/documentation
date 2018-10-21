@@ -31,3 +31,7 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/jhughes01'
