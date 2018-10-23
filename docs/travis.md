@@ -33,6 +33,17 @@ notifications:
     secure: bAjp6O1XLyxs6WgYTBrQlhIQanNSYA/cPNCeJVt8znwvLDHRbOtR2P1ZNQZTsLhiu5DNHp59+IVwMuaBt3obITXwkzzI67nVIwvlVftskEJPFYj9ImugZmQu9fUZqhO6g1RWEiDvQQ68IBiNGArwzComk0ctDq6gY6fuwq6m6UNwXvesX2mzxQ0W9Yl+g9u8TOTPwTOA9Qj5u0kh/Isg3RUxj2ypShNmgY2L+9/jn0rOO1bU7vseHrZ/mURA27FccoHbOcqoUDylUGbu57FBIUrldvQqZoAe2ZYm/f5XNRDzQvZYjrdlRXqreuUwqbhInNd043qr32QIRj6FLdSu7biSMOjdyp6HlTZtvIv8/kqNECO8PwnhC0L+5X5yzapVOm+9TQs5zzcVN7OPNY2XmxcMC97AwltrVGJwhrSwS8ZTxSpSU459tHFLtQDEJSLLzhlir5Faw/QAxYzxS/mzX7+UvkyszP9Cz0+F0UeHzCl3Xw+t1gtdcgjtgGquroPbtmGVtmi8EBzrabpoDzqHPHJXAduqEJafdRQiCQEB5/h1fOKce7rkfwJs+2bk4DYBO4X2maNignp5bqUn2ivlEhMPqKq18/3If2YLWaVexxBhHLxF4KoHi7dheF/TB7OGk22bdxlTq3+a32FQXFCA1JnT3Wo09v8dx0hd78MryOo=
 ```
 
+### Enabling build notifications to Slack
+
+[Travis document](https://docs.travis-ci.com/user/notifications/#configuring-slack-notifications)
+
+Travis appears to use encryption keypairs on a per repository basis. This means that each repo's .travis.yml file needs an encrypted value generating. 
+
+Example command (from within git repo):
+```
+travis encrypt "jh-homelab:$SLACK_TOKEN" --add notifications.slack
+```
+
 ## Further Reading
 
 [Travis CI docs](https://docs.travis-ci.com/)
