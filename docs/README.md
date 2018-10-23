@@ -11,7 +11,11 @@
 *   [Shell](shell.md)
 *   [SSH](sshd.md)
 
-## Travis CI
+## Testing
+
+*   [Molecule](molecule.md)
+
+## CI
 
 *   [Travis configuration](travis.md)
 
