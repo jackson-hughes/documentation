@@ -1,5 +1,13 @@
 # AWS CLI
 
+## Querying / searching
+
+Query EC2 instances filtered on specific tag
+
+```bash
+aws ec2 describe-instances --filter "Name=tag:Name,Values=tagvalue"
+```
+
 ## SSM
 
 Insert parameter into parameter store
