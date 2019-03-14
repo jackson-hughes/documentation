@@ -13,7 +13,7 @@
 *   [Fail2Ban](fail2ban.md)
 *   [FreeIPA](freeipa.md)
 *   [Shell](shell.md)
-*   [SSH](sshd.md)
+*   [SSH](ssh.md)
 
 ## Testing
 
